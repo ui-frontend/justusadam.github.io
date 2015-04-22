@@ -43,6 +43,12 @@ defaults:
       type: "legal"
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "teachings"
+    values:
+      layout: "post"
 
 collections:
   projects:
@@ -50,3 +56,5 @@ collections:
   legal:
     output: true
   quick_facts:
+  teachings:
+    output: true
